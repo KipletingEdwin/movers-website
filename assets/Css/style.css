@@ -1,0 +1,97 @@
+
+*{
+    font-family: sans-serif;
+}
+.header{
+    background-image: url("../Images/moving\ 1.png");
+    background-size:cover;
+    background-image: auto;
+    width: auto;
+    height:800px;
+}
+.links {
+    float: right;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+    color: white;
+    
+}
+.links ul li{
+    margin: 25px;
+    color: white;
+}
+.links >ul li a{
+    padding: 5px;
+    text-decoration: none;
+    margin: 15px;
+}
+.bt{
+  
+    background-color: #FFAC12;
+    color: black;
+    padding: 3px;
+}
+#btn{
+    color: #FFAC12;
+    background-color: black;
+}
+.links >ul li a:hover{
+    color: red;
+
+}
+#paragraph{
+    padding-top: 90px;
+    margin-left: 100px;
+    width: 650px;
+    font-size: 30px;
+    font-weight: 700;
+}
+#paragraph h3{
+    color:#FAFF00;
+    font-size: 55px;
+}
+#paragraph p{
+    color:white;
+}
+
+/* cut the hustle section */
+.part2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+
+
+
+.part2 > #image img{
+    width: 600px;
+    height: auto;
+}
+.hustle{
+    width: 500px;
+    margin: 40px;
+    padding-top: 90px;
+
+}
+.hustle hr{
+    width: 150px;
+    margin-left: 22px;
+    color: #FAFF00;
+    font-weight: 900;
+}
+
+.hustle h1{
+    font-size: 30px;
+    font-style:bold;
+}
+.hustle button{
+    padding: 12px 30px;
+    background-color: black;
+    color: #FAFF00;
+    border-top-right-radius: 10px;
+}
