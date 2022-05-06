@@ -1,6 +1,6 @@
 
 *{
-    font-family: sans-serif;
+    font-family:'Actor',sans-serif;
 }
 .header{
     background-image: url("../Images/moving\ 1.png");
@@ -96,6 +96,44 @@
     border-top-right-radius: 10px;
 }
 /* movers part */
-movers{
+.move{
+    width: 100%;
+    height: auto;
+    background-color: rgb(231, 226, 226); 
+}
+.onetwo{
+    justify-content: center;
+    align-items: center;
+}
+.onetwo , h3{
+    justify-content: center;
+    padding-left: 25px;
+
+}
+.onetwo , i{
+padding: 25px;
+
+}
+.onetwo #one{
+    display: flex;
+    margin: 150px;
+    align-items: center;
+}
+
+.onetwo #two{
+    display: flex;
+    margin: 150px;
+
+}
+.onetwo img{
+    width: 250px;
+    height: auto;
+}
+#mg{
+    margin: 20px;
+    background-color: white;
     
+}
+#mg, h3 i{
+    justify-content: center;
 }
