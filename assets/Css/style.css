@@ -18,14 +18,14 @@ body{
 .links {
     float: right;
 }
-.links ul{
+.links > ul{
     display: flex;
     list-style: none;
     margin-right: 150px;
     color: white;
     
 }
-.links ul li{
+.links > ul li{
     margin: 25px;
     color: white;
 }
@@ -218,14 +218,24 @@ h2{
 /* Details, Descriprion feature section begin */
 .dedefe{
     margin: 90px;
-    width: 610px;
-    background-color: white;
+    width: 600px;
     border-radius: 10px;
+    padding: 20px;
 
 }
-.dedefe h4{
-    padding: 30px;
-    font-size: 20px;
+.dedefe ,h4{
+    padding: 10px;
+
+
+}
+.details{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.details ,h4{
+    padding:15px;
+
 }
 .details > .ico{
     margin: auto;
@@ -233,7 +243,40 @@ h2{
     
 }
 .details > .ico i{
-    margin: 17px;
+    margin: 13px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+.descript{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.descript ,h4{
+    padding: 15px;
+
+}
+.descript ,p{
+    text-align: left;
+    padding: 10px;
+
+}
+
+/* features starts here */
+.feature{
+    background-color: white;
+    border-radius: 10px; 
+}
+.feature ,h4{
+    padding: 15px;
+}
+.ls{
+    display: flex;
+}
+.ls, .list1 ,.list2 , .list3{
+    margin: 2px;
+    font-size: small;
+}
+
