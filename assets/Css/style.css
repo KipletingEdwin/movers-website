@@ -5,6 +5,9 @@
 body{
     overflow-x: hidden;
 }
+#body{
+    background-color: rgb(230, 220, 220);
+}
 .header{
     background-image: url("../Images/moving\ 1.png");
     background-size:cover;
@@ -211,4 +214,26 @@ h2{
 }
 .mdhouses , #external{
     width: 600px;
+}
+/* Details, Descriprion feature section begin */
+.dedefe{
+    margin: 90px;
+    width: 610px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.dedefe h4{
+    padding: 30px;
+    font-size: 20px;
+}
+.details > .ico{
+    margin: auto;
+    border-top: rgb(92, 89, 89);
+    
+}
+.details > .ico i{
+    margin: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
