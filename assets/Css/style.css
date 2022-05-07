@@ -174,3 +174,22 @@ h2{
     list-style: none;
     margin: 25px;
 }
+/* Property page css */
+#bn{
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    color: #FFAC12;
+    
+}
+.head{
+    background-color: #251e10;
+}
+#modeh{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    color: white;
+}
