@@ -162,9 +162,9 @@ footer > #soci{
 footer > h2> span{
     color:#FFAC12;
 }
-h2{
-    padding-top: 50px;
-    font-size: 40px;
+footer h2{
+    font-size: 50px;
+
 }
 
 #footlinks{
@@ -180,11 +180,16 @@ h2{
 /* Property page css */
 #bn{
     border-top-right-radius: 10px;
-    padding: 10px;
+     /* //footer button// */
+    padding: 12px;
     margin-bottom: 5px;
     border: none;
-    color: #FFAC12;
+    background-color: #FFAC12;
+    float: right;
     
+}
+#ar{
+    color: white;
 }
 .head{
     background-color: #251e10;
@@ -214,6 +219,26 @@ h2{
 }
 .mdhouses , #external{
     width: 600px;
+}
+#form{
+    background-color: red;
+}
+#form ,#fm{
+    width: 500px;
+}
+#fm ,label ,input{
+    width:300px ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#fm #btw{
+    padding: 20px;
+    width:320px ;
+    margin: 10px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: white;
 }
 /* Details, Descriprion feature section begin */
 .dedefe{
@@ -279,5 +304,22 @@ h2{
 }
 .ls , .lt li{
     list-style-type: circle;
+}
+.slide{
+    display: flex;
+}
+.slide img{
+        width: 250px;
+        height: 200px;
+}
+#sls{
+    margin: 20px;
+    background-color: white;
+    
+}
+/* property page footer */
+ footer #hb{
+     display: flex;
+     justify-content: space-between;
 }
 
