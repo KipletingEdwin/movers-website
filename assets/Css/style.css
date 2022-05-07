@@ -274,9 +274,10 @@ h2{
 }
 .ls{
     display: flex;
+    padding-right:40px;
+    justify-content: center;
 }
-.ls, .list1 ,.list2 , .list3{
-    margin: 2px;
-    font-size: small;
+.ls , .lt li{
+    list-style-type: circle;
 }
 
