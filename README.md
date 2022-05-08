@@ -13,11 +13,11 @@ This is a landing page of movers website
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a movers web application for that shows details about the services it offers, has information about the moving company, a portfolio section and a form that enables users to send their requests and concerns to Movers website</p>
+ This project is a movers web application for that shows details about the services it offers, has information about the moving company, a portfolio section and a form that enables users to send their requests and concerns to Movers website.
 ## Features
 As a user of the application,you will be able to :
 1. See a description of what the services offered by the moving company
-1. Can make inquiry through a form.
+2. Can make inquiry through a form.
 [Go Back to the top](#movers-website)
  ###  Requirements
  * Access to  a computer or any other garget
