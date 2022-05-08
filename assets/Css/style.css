@@ -118,7 +118,7 @@ body{
 
 }
 .onetwo , i{
-padding: 25px;
+padding: 20px;
 
 }
 .onetwo #one{
@@ -133,12 +133,13 @@ padding: 25px;
 
 }
 .onetwo img{
-    width: 250px;
+    width: 270px;
     height: auto;
 }
 #mg{
     margin: 20px;
     background-color: white;
+    align-items: center;
     
 }
 #mg, h3 i{
@@ -220,26 +221,41 @@ footer h2{
 .mdhouses , #external{
     width: 600px;
 }
-#form{
-    background-color: red;
+.wrapper{
+    width: auto;
+    background-color: white;
+    height: 520px;
+    margin-top: 80px;
+    margin-left: 30px;
+    border-radius: 15px;
 }
-#form ,#fm{
-    width: 500px;
-}
-#fm ,label ,input{
-    width:300px ;
-    padding: 10px;
+.submit .profile{
+    background-color: rgb(226, 218, 218);
     margin: 10px;
-    border-radius: 5px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
 }
-#fm #btw{
-    padding: 20px;
-    width:320px ;
-    margin: 10px;
-    border-top-right-radius: 15px;
+.submit img{
+    width: 30px;
+    height: auto;
+}
+input, .txt{
+    width: 250px;
+    padding:10px ;
+    border-radius: 10px;
+}
+form > p> .txt{
+    padding-top: 50px;
+}
+form > p > button{
+    width: 280px;
     background-color: black;
+    padding: 20px;
+    border-top-right-radius: 15px;
     color: white;
 }
+
 /* Details, Descriprion feature section begin */
 .dedefe{
     margin: 90px;
@@ -308,11 +324,15 @@ footer h2{
 .slide{
     display: flex;
 }
+.slider ,h3{
+    padding: 25px;
+    font-size: 25px;
+}
 .slide img{
         width: 250px;
         height: 200px;
 }
-#sls{
+#sl{
     margin: 20px;
     background-color: white;
     
@@ -322,4 +342,3 @@ footer h2{
      display: flex;
      justify-content: space-between;
 }
-
