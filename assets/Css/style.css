@@ -347,18 +347,32 @@ color: #FFAC12;
     display: flex;
 }
 .slider ,h3{
-    padding: 25px;
+    padding: 10px;
     font-size: 25px;
 }
 .slide img{
-        width: 250px;
+        width: 100%;
         height: 200px;
 }
 #sl{
     margin: 20px;
     background-color: white;
     border-radius: 20px;
+    overflow: hidden;
     
+}
+.house_icons {
+    border-top: 1px solid rgb(224, 217, 217);
+    transform: translateY(10px);
+}
+
+.house_icons i{
+    
+    border-right: 1px solid rgb(224, 217, 217);
+}
+
+.house_icons :nth-child(3) {
+    border-right: none;
 }
 /* property page footer */
  footer #hb{
@@ -370,3 +384,5 @@ color: #FFAC12;
     color: white;
 
 }
+
+
