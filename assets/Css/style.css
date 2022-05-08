@@ -155,10 +155,10 @@ padding: 20px;
     justify-content: center;
 }
 /* footer goes here */
-footer{background-color: black;
+footer{
     height: auto;
     padding: 60px;
-    background-image:radial-gradient(rgb(245, 245, 128),1px,black);
+    background-image:radial-gradient(rgb(247, 247, 165),1px,#050505);
     color: white;
     ;
 }
@@ -324,12 +324,22 @@ form > p > button{
 }
 .ls{
     display: flex;
-    padding-right:40px;
-    justify-content: center;
+    width: 700px;
+    margin-left: -50px;
+    padding-bottom: 1px;
+    
+
 }
-.ls , .lt li{
-    list-style-type: circle;
+.lt li{
+    font-size: 10px;
+    margin-bottom: -40px;
+
 }
+.lt i{
+color: #FFAC12;
+}
+
+
 
 /* similar listing  */
 .slide{
