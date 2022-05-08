@@ -88,8 +88,10 @@ body{
     border: none;
     border-top: 4px solid;
     color: #FFAC12;
-    width: 230px;
-    margin-left: 140px;}
+    width: 130px;
+    margin-left: 8px;
+    padding-right: 100px;
+}
 
 
 .hustle h1{
@@ -107,6 +109,13 @@ body{
     width: 100%;
     height: auto;
     background-color: rgb(231, 226, 226); 
+}
+.move > h3{
+    padding: 30px;
+    font-size: 50px;
+    padding-left: 70px;
+    padding-top: 100px;
+
 }
 .onetwo{
     justify-content: center;
