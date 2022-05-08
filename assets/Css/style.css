@@ -321,6 +321,8 @@ form > p > button{
 .ls , .lt li{
     list-style-type: circle;
 }
+
+/* similar listing  */
 .slide{
     display: flex;
 }
@@ -335,6 +337,7 @@ form > p > button{
 #sl{
     margin: 20px;
     background-color: white;
+    border-radius: 20px;
     
 }
 /* property page footer */
