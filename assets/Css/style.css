@@ -237,6 +237,7 @@ footer h2{
     margin-top: 80px;
     margin-left: 30px;
     border-radius: 15px;
+    padding: 20px;
 }
 .submit .profile{
     background-color: rgb(226, 218, 218);
@@ -249,15 +250,15 @@ footer h2{
     width: 30px;
     height: auto;
 }
-input, .txt{
+ input,textarea, #textarea{
     width: 250px;
     padding:10px ;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
-form > p> .txt{
-    padding-top: 50px;
+.form-input > #textarea{
 }
-form > p > button{
+.form-input > button{
     width: 280px;
     background-color: black;
     padding: 20px;
@@ -363,4 +364,9 @@ color: #FFAC12;
  footer #hb{
      display: flex;
      justify-content: space-between;
+}
+/* arrow css */
+.arrow > i{
+    color: white;
+
 }
