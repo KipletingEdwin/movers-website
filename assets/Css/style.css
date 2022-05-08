@@ -191,11 +191,11 @@ footer h2{
 #bn{
     border-top-right-radius: 10px;
      /* //footer button// */
-    padding: 12px;
-    margin-bottom: 5px;
     border: none;
     background-color: #FFAC12;
     float: right;
+    margin-bottom: 70px;
+
     
 }
 #ar{
@@ -204,12 +204,19 @@ footer h2{
 .head{
     background-color: #251e10;
 }
+#headlinks{
+    margin-bottom: -100px;
+
+}
 #modeh{
-    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 100px;
     color: white;
+    margin-bottom: 150px;
+    border-top: 1px solid red;
+}
+.underline{
+    width: 100%;
 }
 /* modern houses begin */
 .mdhouses{
@@ -256,8 +263,7 @@ footer h2{
     border-radius: 10px;
     margin-bottom: 25px;
 }
-.form-input > #textarea{
-}
+
 .form-input > button{
     width: 280px;
     background-color: black;
@@ -378,6 +384,9 @@ color: #FFAC12;
  footer #hb{
      display: flex;
      justify-content: space-between;
+}
+.footer_list :nth-child(1){
+    font-weight: 700;
 }
 /* arrow css */
 .arrow > i{
