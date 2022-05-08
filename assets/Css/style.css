@@ -15,20 +15,19 @@ body{
     width: auto;
     height:800px;
 }
-.links {
-    float: right;
-}
-.links > ul{
+.links{
     display: flex;
+    justify-content: flex-end;
+}
+.links  ul{
+    display: flex;
+    justify-content: space-around;
     list-style: none;
     margin-right: 150px;
     color: white;
     
 }
-.links > ul li{
-    margin: 25px;
-    color: white;
-}
+
 .links >ul li a{
     padding: 5px;
     text-decoration: none;
@@ -39,8 +38,10 @@ body{
     background-color: #FFAC12;
     color: black;
     padding: 3px;
+    border-radius: 1px;
 }
 #btn{
+    margin-top: -20px;
     color: #FFAC12;
     background-color: black;
 }
@@ -189,13 +190,13 @@ footer h2{
 }
 /* Property page css */
 #bn{
-    border-top-right-radius: 10px;
+    border-top-right-radius: 20px;
      /* //footer button// */
     border: none;
     background-color: #FFAC12;
     float: right;
     margin-bottom: 70px;
-
+    margin-top: -20px;
     
 }
 #ar{
@@ -208,12 +209,17 @@ footer h2{
     margin-bottom: -100px;
 
 }
-#modeh{
+#modernhouse{
+    border-top: 1px solid rgb(70, 66, 66);
+
+}
+
+.modern{
     display: flex;
     justify-content: space-between;
     color: white;
     margin-bottom: 150px;
-    border-top: 1px solid red;
+    margin: 0 100px;
 }
 .underline{
     width: 100%;
