@@ -1,8 +1,8 @@
 # movers-website
 This is a landing page of movers website
- ## By Dennis Kiprop
+ ## By Kipleting Edwin
 ## Screenshot
-![Screenshot from 2022-05-08 14-59-27](https://user-images.githubusercontent.com/104482846/167295154-9778b7b4-a306-4a85-aab6-b10b0fe9a9f3.png)
+
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
@@ -24,13 +24,13 @@ As a user of the application,you will be able to :
  * Access to internet
  ### Installation Process
  ****
-* Clone to the repo : git clone https://github.com/Mkdenno/movers-website
+* Clone to the repo : git clone https://kipletingedwin.github.io/IP2/
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
  [Go Back to the top](#movers-website)
 ### Live Link
-- Click this link to view the live application https://mkdenno.github.io/movers-website/
+- Click this link to view the live application https://kipletingedwin.github.io/IP2/
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
@@ -41,4 +41,4 @@ As a user of the application,you will be able to :
 This project is licensed under the terms of the MIT license
 [Go Back to the top](#movers-website)
 ## Authors Info
-Dennis kiprop Masiror
+Kipleting Edwin
